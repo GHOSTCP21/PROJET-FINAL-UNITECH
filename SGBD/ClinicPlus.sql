@@ -1,0 +1,8 @@
+CREATE DATABASE ClinicPlus;
+GO
+
+USE ClinicPlus;
+GO
+
+CREATE SCHEMA Clinic;
+GO

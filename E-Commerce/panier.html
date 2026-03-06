@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier - E&J Boutique</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><i class="bi bi-shop"></i> MaBoutique</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="catalogue.html">Catalogue</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Rechercher...">
+                        <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                    <a href="panier.html" class="btn btn-outline-dark ms-2"><i class="bi bi-cart"></i> <span class="badge bg-dark">3</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="my-4">Votre panier</h1>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-cart">
+                    <thead>
+                        <tr>
+                            <th>Produit</th>
+                            <th>Quantité</th>
+                            <th>Prix unitaire</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ordinateur portable</td>
+                            <td>1</td>
+                            <td>799 €</td>
+                            <td>799 €</td>
+                        </tr>
+                        <tr>
+                            <td>Casque audio</td>
+                            <td>2</td>
+                            <td>149 €</td>
+                            <td>298 €</td>
+                        </tr>
+                        <tr>
+                            <td>Sac à dos</td>
+                            <td>1</td>
+                            <td>89 €</td>
+                            <td>89 €</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="3" class="text-end">Total</th>
+                            <th class="cart-total">1186 €</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="text-end">
+                <a href="#" class="btn btn-success btn-lg">Procéder au paiement (simulation)</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>MaBoutique</h5>
+                    <p>Votre boutique en ligne de confiance.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Liens rapides</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50">Accueil</a></li>
+                        <li><a href="catalogue.html" class="text-white-50">Catalogue</a></li>
+                        <li><a href="contact.html" class="text-white-50">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <address>
+                        <i class="bi bi-envelope"></i> ejboutique@gmail.com<br>
+                        <i class="bi bi-telephone"></i> +509 35 09 4413 | 47 02 0413
+                    </address>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <small>&copy; 2026 E&J Boutique – Projet Examen FINAL</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
