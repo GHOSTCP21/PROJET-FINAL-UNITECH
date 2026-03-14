@@ -134,7 +134,7 @@ main {
     color: #0d6efd;
 }
 
-/* --- RESPONSIVE (APPROCHE MOBILE-FIRST) --- */
+/* --- RESPONSIVE --- */
 
 @media (min-width: 768px) {
     .hero-section {
