@@ -1,4 +1,4 @@
-# E&J Boutique - Projet Final UNITECH
+# E&J Boutique - Projet Final UNITECH.
 
 **E&J Boutique** est un site web e-commerce fictif développé dans le cadre du projet final du cours **HTML & CSS, GIT/GitHub & Bootstrap 5** – Session 1, Deuxième Année en Sciences Informatiques à **UNITECH**.  
 Ce projet a été réalisé en binôme par **JEAN Crawford-Erill** et **JOSEPH Jorel**.
